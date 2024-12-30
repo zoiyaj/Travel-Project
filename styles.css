@@ -48,33 +48,54 @@ header a{
     text-transform: uppercase;
     margin-top: 50px
 }
+main {
+  background-color: white;
+}
 
-main{
-    background: white;
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
 }
-main h2{ font-weight:700px;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 5px;
-color: #272044;
-opacity:0.3;
-text-transform: uppercase;
-margin:0;}
-main h3{
-    font-weight:700px;
-font-size: 40px;
-line-height: 1.5;
-color: #272044;
-margin:0;
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
 }
-main p{
-    font-style:normal;
-    font-weight:400px;
-font-size: 16px;
-line-height: 24px;
-color: #272044;
-opacity:0.7;
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
 }
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
 .grid{display: grid;
 grid-gap:64px;}
 .img-responsive{
@@ -85,6 +106,34 @@ grid-gap:64px;}
 }
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    background: white;
+    margin-top: 30px 0;
+
+}
+.card-body{
+    padding:30px 0;
+
+}
+.card-footer{
+    padding:30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 footer{color:white;
     background-color: #180E11;
@@ -119,9 +168,18 @@ padding:0;
 }
 footer a{ color:white;
 opacity:0.7;}
-section{ max-width:1200px ;
+
+
+section{ max-width:100% ;
 margin:0 auto;
 padding:100px}
+
+.text-center{text-align: center;}
+
+section.secondary{
+    background:#f8f8f8;
+  ;
+}
 
 
 @media (max-width: 960px) {
